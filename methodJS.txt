@@ -1,0 +1,121 @@
+//String Method
+.length
+.at()
+	Mencari karakter berdasarkan urutan index.
+.charAt()
+	Sama seperti .at() namun tidak bisa menggunakan negative.
+.charCodeAt()
+	Mencari kode karakter berdasarkan urutan index.
+.slice()
+	Memotong string, titik awal harus selalu berada di paling kiri, bisa 
+	menggunakan negative.
+.substring()
+	Sama seperti .slice() namun tidak bisa menggunakan negative.
+.substr()
+	Sama seperti .slice() namun, parameter kedua merupakan jumlah Langkah 
+	dari titik awal.
+.concat()
+	Untuk menggabungkan string.
+.trim()
+	Untuk menghapus whitespace.
+.trimStart
+	Untuk menghapus whitespace di awal.
+.trimEnd
+	Untuk menghapus whitespace di akhir.
+.padStart()
+	Untuk membuat padding menggunakan string pada string bagian awal.
+.padEnd()
+	Untuk membuat padding menggunakan string pada string bagian akhir.
+.replace()
+	Untuk mengganti 1 kata yang ditemukan pertamakali pada string.
+.replaceAll()
+	Untuk mengganti lebih dari 1 kata pada string.
+.split()
+	Mengubah string menjadi array.
+.indexOf()
+	Mencari index karakter pertama dari string. Bisa mengcustom titik awal.
+.lastIndexOf()
+	Mencari index karakter pertama dari string yang ditemukan paling akhir.
+.search()
+	Sama seperti indexOf() namun tidak bisa mengcustom titik awal.
+.match()
+	Mencari string dan menjadikannya array (lebih baik pakai regexp).
+.matchAll()
+	Mencari string dan menjadikannya iterator.
+.includes()
+	Cek apakah di sebuah string ada string yang dimaksud.
+.startsWith()
+	Cek apakah sebuah string diawali oleh string yang dimaksud.
+.startsEnd()
+	Cek apakah sebuah string diakhiri oleh string yang dimaksud.
+.toUpperCase()
+	Merubah text menjadi uppercase. Contoh "restu" menjadi "RESTU".
+.toLowerCase()
+	Merubah text menjadi uppercase. Contoh "RESTU" menjadi "restu".
+
+
+
+//Number Method
+Number()
+	Mengubah boolean atau string yang berisi nomor menjadi number.
+Number.parseInt()
+	Mengubah string menjadi number integer.
+Number.parseFloat()
+	Mengubah string menjadi number Float.
+Number.MAX_SAFE_INTEGER
+	Mengembalikan nilai tertinggi integer.
+Number.MIN_SAFE_INTEGER
+	Mengembalikan nilai terendah integer.
+Number.isInteger()
+	Mengembalikan boolean apakah nilai yang dimaksud adalah integer.
+Number.isSafeInteger()
+	Mengembalikan boolean apakah nilai yang dimaksud adalah integer yang aman.
+.toString()
+	Mengembalikan number menjadi string.
+.toExponential()
+	Mengembalikan number menjadi format exponen.
+.toFixed()
+	Menentukan jumlah digit dibelakng koma.
+.toPrecision()
+	Menentukan jumlah keseluruhan digit termasuk angka sebelum koma
+.valueOf()
+	Merubah object number menjadi number biasa (primitif)
+
+
+//Object Method
+Object.keys()
+	Merubah property dari object biasa menjadi key dalam array.
+Object.values()
+	Merubah nilai dari object biasa menjadi nilai dalam array.
+Object.entries()
+	Mengambil property dan value dari object dan merubahnya menjadi pasangan [key:value] dalam array.
+Object.create()
+	Membuat objek yang mewarisi properti dari objek lain.
+
+
+//Array Method
+.length
+	Menghitung jumlah nilai array.
+.push()
+	Menambahkan value array baru, mengembalikan jumlah array.
+.isArray()
+	Cek apakah object tersebut adalah array atau bukan.
+.at(0)
+	Nilai apakah yang ada pada index 0
+.pop()
+	Mengeluarkan nilai array paling akhir, mengembalikan nilai yang dikeluarkan.
+.toString()
+	Mengubah array menjadi string.
+.join()
+	Mengubah array menjadi string lalu memisahkannya dengan karakter tertentu.
+.concat()
+	Menggabungkan 2 array atau lebih menjadi 1. Bisa digunakan untuk menambah nilai baru.
+.copyWithin(*dicopy dimana, *awal index yang ingin dicopy, *akhir index yang ingin dicopy)
+	Mengcopy elemen array ke posisi lain di dalam array.
+.shift()
+	Menghapus array nilai pertama dan menurunkan index elemen yang tersisa.
+.unshift()
+	Menambahkan nilai di awal tanpa menghapus nilai di akhir.
+.delete()
+	Menghapus nilai array.
+.
