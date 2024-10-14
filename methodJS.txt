@@ -124,5 +124,8 @@ Object.create()
         gabungan dari map() dan flat().
 .splice(*index yang dituju, *berapa nilai yang ingin dihapus, *nilai yang ingin ditambahkan di array)
         Menghapus nilai array atau menambah nilai array.
-
+.toSpliced()
+        Sama seperti splice() namun menghasilkan array baru.
+.slice(*index awal, *index akhir)
+        memotong nilai array dan menghasilkan nilai baru.
         
