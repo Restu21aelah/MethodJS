@@ -118,4 +118,11 @@ Object.create()
 	Menambahkan nilai di awal tanpa menghapus nilai di akhir.
 .delete()
 	Menghapus nilai array.
-.
+.flat()
+        Meratakan sub array.
+.flatMap()
+        gabungan dari map() dan flat().
+.splice(*index yang dituju, *berapa nilai yang ingin dihapus, *nilai yang ingin ditambahkan di array)
+        Menghapus nilai array atau menambah nilai array.
+
+        
